@@ -48,7 +48,7 @@ To get started with **Botifython**, all you really need is the initial ZIP downl
 That's it! Running `nix develop` automatically sets up everything you need: the
 environment is initialized, dependencies are handled, and even the latest
 version of the repository is pulled. No manual configuration is required—you’re
-ready to start developing right away!
+ready to start working with Botifython right away!
 
 ## Solving Installation Headaches
 
