@@ -68,3 +68,15 @@ when using the Determinate Systems installer. Simply run:
 This command cleanly removes Nix from your system, leaving no trace behind. It's
 an elegant solution for both trying out new software and maintaining a clean,
 conflict-free system environment.
+
+## Where's The Apps?
+
+There are 2 apps slated for release with Botifython:
+
+1. Link-graph Visualizer
+2. Content Gap Analysis Tool
+
+These tools are in the proces of being ported. One already exist as a web app
+and just needs to be plugged in here, and the other is still a Jupyter Notebook,
+but the system is designed to allow easy notebook conversion to an app. So stay
+tuned!
