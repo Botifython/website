@@ -1,3 +1,12 @@
+Botifython is a modern Python framework designed for SEO and AI integration,
+leveraging Nix Flakes for a reproducible, robust development environment.
+It focuses on automation, seamless setup, and scalable features. Built to handle
+the complexity of SEO tools while integrating advanced AI capabilities, this project
+ensures consistent environments across platforms, using automated updates and
+SSH keys to keep everything up-to-date with minimal manual intervention.
+
+The first step is getting Nix installed on your system.
+
 # Installing Nix on macOS or Windows
 
 This guide provides straightforward instructions for installing Nix on macOS or Windows using the Determinate Systems installer.
@@ -21,6 +30,3 @@ This guide provides straightforward instructions for installing Nix on macOS or 
 - Stores an installation receipt at `/nix/receipt.json` for easier uninstallation
 - Places a copy of the install binary at `/nix/nix-installer`
 
-## Verification
-
-After installation, verify Nix is working by running:
