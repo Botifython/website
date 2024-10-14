@@ -45,3 +45,14 @@ To get started with **Botifython**, all you really need is the initial ZIP downl
    ```
 
 That's it! Running `nix develop` automatically sets up everything you need: the environment is initialized, dependencies are handled, and even the latest version of the repository is pulled (if it's set up as a Git repository). No manual configuration is required—you’re ready to start developing right away!
+
+## Solving Installation Headaches
+
+Using Nix solves common issues associated with software installation, such as system pollution with unused packages and version conflicts. Nix operates in isolation, ensuring that it doesn't affect anything outside its own environment. This means you can install and experiment with various packages without worrying about cluttering your system or creating conflicts with existing software.
+
+Moreover, if you decide to remove Nix entirely, the process is straightforward when using the Determinate Systems installer. Simply run:
+
+```
+/nix/nix-installer uninstall
+```
+This command cleanly removes Nix from your system, leaving no trace behind. It's an elegant solution for both trying out new software and maintaining a clean, conflict-free system environment.
