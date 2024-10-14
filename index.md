@@ -38,7 +38,7 @@ To get started with **Botifython**, all you really need is the initial ZIP downl
 1. **Download the Botifython ZIP file**: You can grab it [here](https://botifython.com/botifython-main.zip)
 
 2. **Open a terminal** and extract the contents of the ZIP file.
-3. **Navigate into the project directory** using `cd your-project-directory`.
+3. **Navigate into the project directory** using `cd botifython-main`.
 4. **Run this single command**:
 
    ```bash
