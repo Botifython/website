@@ -76,7 +76,7 @@ There are 2 apps slated for release with Botifython:
 1. Link-graph Visualizer
 2. Content Gap Analysis Tool
 
-These tools are in the proces of being ported. One already exist as a web app
-and just needs to be plugged in here, and the other is still a Jupyter Notebook,
-but the system is designed to allow easy notebook conversion to an app. So stay
-tuned!
+As these and other tools are completed, they will automatically be available on
+the menus each time you run `nix develop`
+
+They're being ported now, so stay tuned!
