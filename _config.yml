@@ -1,0 +1,17 @@
+# Site settings
+title: Botifython
+description: Soft launch of an SEO Automation Tool
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://botifython.com" # the base hostname & protocol for your site
+
+# Build settings
+remote_theme: pages-themes/midnight@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+# Optional: Additional configurations
+markdown: kramdown
+highlighter: rouge
+
