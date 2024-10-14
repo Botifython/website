@@ -30,3 +30,16 @@ This guide provides straightforward instructions for installing Nix on macOS or 
 - Stores an installation receipt at `/nix/receipt.json` for easier uninstallation
 - Places a copy of the install binary at `/nix/nix-installer`
 
+# Getting Started with Botifython
+
+To get started with **Botifython**, all you really need is the initial ZIP download, a terminal, and one simple command to kick off the entire process. Here's how it works:
+
+1. **Download the Botifython ZIP file**: You can grab it [here](#).
+2. **Open a terminal** and extract the contents of the ZIP file.
+3. **Navigate into the project directory** using `cd your-project-directory`.
+4. **Run this single command**:
+   ```bash
+   nix develop
+   ```
+
+That's it! Running `nix develop` automatically sets up everything you need: the environment is initialized, dependencies are handled, and even the latest version of the repository is pulled (if it's set up as a Git repository). No manual configuration is required—you’re ready to start developing right away!
