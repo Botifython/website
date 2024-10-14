@@ -24,8 +24,7 @@ This guide provides straightforward instructions for installing Nix on macOS or 
 
 3. Follow on-screen prompts to complete the installation.
    - You have to answer "Yes" once.
-   - Once it's done, you have to close the terminal and open a new one for 
-     `nix develop` to work.
+   - Close and reopen your terminal at the end!
 
 ## What This Does
 
