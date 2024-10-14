@@ -22,7 +22,10 @@ This guide provides straightforward instructions for installing Nix on macOS or 
    curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
    ```
 
-3. Follow any on-screen prompts to complete the installation.
+3. Follow on-screen prompts to complete the installation.
+   - You have to answer "Yes" once.
+   - Once it's done, you have to close the terminal and open a new one for 
+     `nix develop` to work.
 
 ## What This Does
 
